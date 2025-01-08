@@ -1,0 +1,51 @@
+.d-flex{
+    display: flex;
+}
+body{
+    margin: 0;
+}
+html{
+    font-family: tahoma;
+}
+header{
+    background-color: #003d33;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.b-left{
+    width: 70%;
+}
+.b-right{
+    width: 30%;
+}
+.m-left{
+    background-color: #26a69a;
+    height: 550px;
+    width: 30%;
+}
+.m-right{
+    background-color: #26a69a;
+    height: 550px;
+    width: 70%;
+}
+footer{
+    background-color: #003d33;
+    color: white;
+}
+.wizytowka{
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    border: solid 1px #003d33;
+}
+button{
+    background-color: #003d33;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+button:hover{
+    background-color: #004c40;
+}

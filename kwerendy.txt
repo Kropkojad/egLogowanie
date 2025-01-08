@@ -1,0 +1,7 @@
+SELECT haslo FROM uzytkownicy WHERE login = "Justyna";
+
+SELECT COUNT(*) FROM dane;
+
+SELECT login, rok_urodz, przyjaciol, hobby, zdjecie FROM uzytkownicy JOIN dane USING(id) WHERE login="Justyna";
+
+ALTER TABLE `dane` ADD `stanowisko` TEXT;
